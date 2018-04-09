@@ -18,7 +18,9 @@
 
 
 
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 
 
@@ -47,7 +49,8 @@ Roomates:
 [[Haley Jennings]]
 [[Rosaline Valez]]
 [[William &quot;Bill&quot; Davis]]
-[[Sarah Maxwell]]</tw-passagedata><tw-passagedata pid="3" name="Haley Jennings" tags="" position="96,199" size="100,100">Haley, a 5&#39;4 medium size, strawberry blonde girl, with freckles across her face. 
+[[Sarah Maxwell]]
+(set: $inv to &quot;false&quot;)</tw-passagedata><tw-passagedata pid="3" name="Haley Jennings" tags="" position="96,199" size="100,100">Haley, a 5&#39;4 medium size, strawberry blonde girl, with freckles across her face. 
 Perhaps one of the cleanest and well-organized of the roomates.
 She&#39;s not originally from Tacoma, but got a full scholarship to the local college for their pharmacy program.
 She is very responsible and is able to balance her studies and social activities well.
@@ -136,15 +139,17 @@ Last seen: March 1st, 2012, having an outing with Haley, Rosaline, Bill at Burg&
 
 Back to [[Start]] 
 Enter [[House]]</tw-passagedata><tw-passagedata pid="23" name="Check underneath clothes" tags="" position="399,1252" size="100,100">You found a &#39;&#39;//cell phone.//&#39;&#39; 
-The phone is completely dead. So you don&#39;t know exactly whose it is. But you take it in as evidence anyways. 
+The phone is completely dead. So you don&#39;t know exactly whose it is. But you take it in as evidence anyways.
+
+Your //evidence// now contains a cell phone
+ (set: $inv to &quot;true&quot;)
+ 
 [[Keep checking the room for more evidence to collect]]
 Check the rest of the [[hallway]] 
 Go to the station to investigate into the [[phone]]</tw-passagedata><tw-passagedata pid="24" name="Keep checking the room for more evidence to collect" tags="" position="324,1402" size="100,100">As disturbing, filthy  and disgusting as this room is, you don&#39;t find anything else in here that seems suspicious.
 Go back to [[hallway]]</tw-passagedata><tw-passagedata pid="25" name="phone" tags="" position="474,1402" size="100,100">You charge up the phone and find out it belongs to Sarah. 
 &lt;img src=&quot;Missed Alerts.jpg&quot; width=250/&gt;
 
-Your evidence now contains a cell phone
- 
 (display: &quot;cell phone&quot;) </tw-passagedata><tw-passagedata pid="26" name="text messages" tags="" position="214,1552" size="100,100">You go through her recent text messages.
 [[Daddy&lt;3 ]]
 [[Kayla from Anatomy class]]
@@ -154,10 +159,15 @@ Your evidence now contains a cell phone
 Sarah&#39;s last post was about how stressful this semester has been and decided to treat her self to a mini get-a-way, where there will be no cell service or wifi. Calling it her &quot;me time&quot; 
 You think to yourself that makes no sense because Sarah&#39;s car is still sitting in the garage
 You see this status [[location]] was &quot;near Lakewood, WA&quot; that&#39;s only 9 miles out of Tacoma
+
 Back to the home of her [[phone]]</tw-passagedata><tw-passagedata pid="28" name="Daddy&lt;3 " tags="" position="0,1702" size="100,100">You thoroughly read through their conversation. 
 Excluding the excessive messages asking for her whereabouts and not a single reply back, you can tell they do have a very close knit father-daughter relationship. So her missing out of the blue was no ordinary &quot;[[mini get-a-way]], to take time to myself&quot; type of situation
+
+See the other [[text messages]] 
 Back to the home of her [[phone]]</tw-passagedata><tw-passagedata pid="29" name="Kayla from Anatomy class" tags="" position="130,1702" size="100,100">As you read through this conversation, you automatically rule out Kayla as suspect. She just seems to be a girl Sarah is friends with from college who occasionally asks for notes.
 The last test from Kayla was &quot;Hey girl! I hope you enjoy your [[mini get-a-way]]!! I know this semester is pretty tough. Will you be back before mid-terms? I&#39;d like to meet up to exchange notes and study sometime!&quot;
+
+See the other [[text messages]] 
 Back to the home of her [[phone]]</tw-passagedata><tw-passagedata pid="30" name="Hales" tags="" position="251,1780" size="100,100">Through examining their conversation Haley and Sarah seemed to get along really well. 
 That was until recently, Sarah seemed to have found out about how Haley was making extra cash
 
@@ -169,6 +179,7 @@ That was until recently, Sarah seemed to have found out about how Haley was maki
 
 &quot;Just relax Sarah. How about you meet me at [[Burgs]] and we can discuss it  with Rosaline there.&quot;
 
+See the other [[text messages]] 
 Back to the home of her [[phone]]</tw-passagedata><tw-passagedata pid="31" name="Rosie" tags="" position="364,1702" size="100,100">You would&#39;ve never known these two were best friends since the 2nd grade. 
 A couple of boring text asking from Rosaline asking 
 &quot;wanna catch a movie?&quot;
@@ -178,11 +189,17 @@ The last text was from Rosie to Sarah saying
 
 &quot;Hey, Haley told me you guys wanted to come by to discuss something? I work til late tonight, but I can take a break around 8 pm. if you&#39;re going to stop by [[Burgs]]
 
+See the other [[text messages]] 
 Back to the home of her [[phone]]</tw-passagedata><tw-passagedata pid="32" name="Rosalines bummy bf" tags="" position="514,1702" size="100,100">Sarah never talks to this guy, the only reason they have each others contacts is to remind Will the rent is due.
+
+See the other [[text messages]] 
 Back to the home of her [[phone]]</tw-passagedata><tw-passagedata pid="33" name="mini get-a-way" tags="" position="0,1852" size="100,100">Martin said something about his daughter posting on [[facebook]] about her taking a sponanteous mini-get-a-away. Although he didnt believe a single bit about it because he knows Sarah would&#39;ve at least told him before hand.
 Sarah plans everything months in advance, so this was very unlike her.</tw-passagedata><tw-passagedata pid="34" name="location" tags="" position="685,1673" size="100,100">Sarah&#39;s last cell service was pinged nearby a lake house in Lakewood, WA
 Maybe she was meeting a friend there or made a quick pit stop.
-Drive to the [[lake house]]</tw-passagedata><tw-passagedata pid="35" name="lake house" tags="" position="700,2101" size="100,100">Before you headed out there, you were granted a warrant to search at this address with no complications.
+
+Drive to the [[lake house]]
+Check her [[facebook]]
+Check her [[text messages]] </tw-passagedata><tw-passagedata pid="35" name="lake house" tags="" position="700,2101" size="100,100">Before you headed out there, you were granted a warrant to search at this address with no complications.
 You ring the door bell and asks if the man who answers is Mr. Robert Davis. He admits he is. You explain the situation, and Mr. Davis claims he is not aware of any such proclamation as this, but complies with you to search the premise anyways.
 
 [[Search the house]]
@@ -203,10 +220,11 @@ You can tell its a 1998 Honda Civic, and the camera catches the tag as the car i
 
 [[Run the Tag]]</tw-passagedata><tw-passagedata pid="38" name="Run the Tag" tags="" position="1103,2199" size="100,100">You run the tag and find out the name and location. It&#39;s under Robert Davis and registered in Lakewood, WA. The address shows he lives in a [[lake house]]</tw-passagedata><tw-passagedata pid="39" name="Search the house" tags="" position="625,2251" size="100,100">You&#39;ve examined every inch of this house with no such useful evidence or anthing that raises an eyebrow. 
 The fact of the matter is, //this// causes you to raise an eyebrow.
-[[Search out outside]] </tw-passagedata><tw-passagedata pid="40" name="Search out outside" tags="" position="775,2251" size="100,100">You start to look around the house.
+
+[[Search out outside]] </tw-passagedata><tw-passagedata pid="40" name="Search out outside" tags="" position="775,2251" size="100,100">&lt;img src=&quot;Boat House.jpg&quot; width=500/&gt;
+You start to look around the house.
 It&#39;s right off a lake, where it has its own personal dock. 
-Where theres a dock, there must be a [[boat shed]]
-&lt;img src=&quot;Boat House.jpg&quot; width=500/&gt;</tw-passagedata><tw-passagedata pid="41" name="boat shed" tags="" position="775,2401" size="100,100">&lt;img src=&quot;Boat.jpg&quot; width=500/&gt;
+Where theres a dock, there must be a [[boat shed]]</tw-passagedata><tw-passagedata pid="41" name="boat shed" tags="" position="775,2401" size="100,100">&lt;img src=&quot;Boat.jpg&quot; width=500/&gt;
 You enter the boat house.
 You can clearly tell the boat hasn&#39;t been in the water for years.
 You look into the boat and see there&#39;s a dumpster bag.
@@ -222,6 +240,7 @@ Backup was called in to take Mr. Davis in for questioning and to properly recove
 Meanwhile you collected the grocery bag to take in for more evidence. </tw-passagedata><tw-passagedata pid="43" name="examination" tags="" position="775,2701" size="100,100">Sarah&#39;s body gets examined and the reports come in that she was a healthy young girl. 
 Excluding the fact that she had strangling bruises all over her neck. 
 You run fingerprints on the grocery bag and find out the finger prints belong to, not Mr.Robert Davis, but to William Davis. Mr. Robert&#39;s Davis son.
+
 Call in William Davis for [[questioning]]</tw-passagedata><tw-passagedata pid="44" name="questioning" tags="" position="775,2851" size="100,100">&lt;img src=&quot;Interrogation Room.jpg&quot; width=500/&gt;
 You&#39;re in a grey cemented room, with a metal table in the center, sitting across William Davis.
 
